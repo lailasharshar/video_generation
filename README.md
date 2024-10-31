@@ -83,7 +83,7 @@ it often takes a few generations to find something useful. Because of this, the 
 `src/assets/subject_name` directory. It will look for an image that is named `img.png`. Once you find a good
 image (square aspect ratio), just put it in that directory. If you don't it will tell you to find one and even give you the AI prompt
 if you need it, but not continue on with the video generation until the image exists in the directory. An example response looks like this:
-```json
+```
 Black Tourmanile: You now have to get an image of Black Tourmanile before you can continue - called assets/black_tourmanile/img.png. The prompt should be: 
     A high-resolution image of a raw and polished Black Tourmaline crystal, showcasing its deep black color and intricate surface textures, with natural lighting to highlight its unique features. - The image should only show the rock or gem on a white background.
 
