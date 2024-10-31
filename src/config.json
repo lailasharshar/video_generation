@@ -1,0 +1,20 @@
+{
+  "subjects": [
+    "Emerald",
+    "Black Tourmanile",
+    "Blue Apatite",
+    "Blue Moonstone",
+    "Blue Obsidian",
+    "Green Tourmanile",
+    "Larimar",
+    "Moss Agare",
+    "Peridot",
+    "Watermelon Tourmanile",
+    "Prasiolite"
+  ],
+  "voice_id": "ThT5KcBeYPX3keUQqHPh",
+  "image_subtitle": "",
+  "agent_instruction": "You are an expert at geology and the spiritual properties of different types of gems and minerals",
+  "script_prompt": "As an expert at geology and the spiritual properties of different types of gems and minerals, I want a thorough description of the '{topic}'. \nI want a JSON file that will be turned into visuals and a script for a YouTube video describing this rock. It should include:\n    How the rock is created,\n    Where on earth it is found,\n    The Mohs Hardness scale of the rock,\n    Practical uses for the rock,\n    Spiritual uses for the rock,\n    Prompt to generate an AI image of the rock\n\n    The JSON file format should be:\n        title: '{topic}',\n        description_narration: '',\n        ai_image_prompt: '',\n        text_below_image: 'the Mohs Hardness value',\n        details: [\n            type: 'how_formed', text_value='', narration_value='',\n            type: 'historical_context', text_value='', narration_value='',\n            type: 'places_found', text_value='', narration_value='',\n            type: 'practical_uses', text_value='', narration_value='',\n            type: 'spiritual_symbolism', text_value='', narration_value='',\n            type: 'spiritual_uses', text_value='', narration_value='',\n        ]\n\ntext_value should indicate a short description of rock that will be converted to text in the video screen while the narration_value \nwill be a longer description used as a voice over the content. The response should only include the JSON content.\n    \"\"\"\n",
+  "generic_image_prompt": " - The image should only show the rock or gem on a white background."
+}
