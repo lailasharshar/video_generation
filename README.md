@@ -62,7 +62,7 @@ This template contains a divider between the title and the content and a place t
 
 To make this code work, you will need to create a .env file in your home directory with the following environment variables:
 
-```json
+```
 ELEVENLABS_API_KEY=xxx
 OPENAI_API_KEY=yyy
 ```
